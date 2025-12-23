@@ -1,4 +1,6 @@
 ## 🎮 Tic Tac Toe Game
+![Tic Tac Toe Game](images/tic-tac-toe.png)
+
 
 A simple Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
