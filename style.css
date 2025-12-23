@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #CD2C58;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    display: flex;
+    /* min-height: 100vh; */
+    
+    
+}
+#container{
+    /* height: 50vh;
+    width: 33vw; */
+    display: flex;
+    justify-content: center;
+    background-color: #E06B80;
+    margin-top: 20px;
+    
+    
+}
+#game{
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmin;
+
+    
+;
+    
+}
+.box{
+    flex-direction:row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 15vmin;
+    width:15vmin;
+    justify-content: center;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: inset 0px 0px 20px rgba(165, 4, 90, 0.5);
+    font-size: 10vmin;
+    color: #FFC69D;
+    background-color: #180303;
+    align-self: center;
+    
+
+}
+.box:hover {
+    background-color: #fff; /* A slightly darker gray for feedback */
+    cursor: pointer;          /*Change mouse cursor to a pointer */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle raised effect */
+}
+.box:active {
+    background-color: #180303; /* Darker to show it's pressed */
+    transform: scale(.98);    /* Scale it down slightly */
+    box-shadow: 0 2px 20px rgba(240, 209, 4, 0.942); /* Press the shadow inward */
+}
+#reset{
+    margin-top: 30px;
+    color: #fff;
+    background-color: #090401;
+    padding: 1rem;
+   font-size: 1.05rem;
+   border-radius: 1rem;
+   border: none;
+   
+}
+#reset:active{
+    color: black;
+    background-color: white;
+}
+.winmsg{
+    
+    font-size: 2em;
+    background-color: #da9fb6;
+    
+    color: rgb(19, 2, 2);
+}
