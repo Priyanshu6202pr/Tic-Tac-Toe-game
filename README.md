@@ -2,6 +2,10 @@
 ![Tic Tac Toe Game](images/tic-tac-toe.png)
 
 
+## 🔗 Live Demo
+https://tic-tac-toe-game-ten-ashy.vercel.app
+
+
 A simple Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
 ## 🚀 Features
