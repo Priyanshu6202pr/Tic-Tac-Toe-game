@@ -71,6 +71,21 @@ body{
    border: none;
    
 }
+#resetScores{
+    margin-top: 30px;
+    color: #fff;
+    background-color: #090401;
+    padding: 1rem;
+   font-size: 1.05rem;
+   border-radius: 1rem;
+   border: none;
+   
+}
+#resetScores:active{
+    color: black;
+    background-color: white;
+}
+
 #reset:active{
     color: black;
     background-color: white;
@@ -81,4 +96,27 @@ body{
     background-color: #da9fb6;
     
     color: rgb(19, 2, 2);
+} 
+#xscore, #oscore {
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #180303;
+    padding: 0.5rem 1rem;
+    margin: 5px;
+    border-radius: 0.5rem;
+}
+/* Highest scores */
+#Xhigh, #ohigh {
+    font-size: 1.5rem;
+
+    font-weight: bold;
+    color: #FFD700;
+    background-color: #3a0a1d;
+    padding: 0.6rem 1.2rem;
+    margin: 10px;
+    border-radius: 0.8rem;
+}
+.leader {
+    box-shadow: 0 0 15px gold;
+    transform: scale(1.05);
 }
